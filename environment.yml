@@ -1,0 +1,11 @@
+name: popgen
+channels:
+  - defaults
+dependencies:
+  - python=2.7
+  - pip
+  - pip:
+    - PyYAML==3.11
+    - numpy==1.9.2
+    - scipy==0.15.1
+    - pandas==0.16.1
